@@ -1,0 +1,20 @@
+# 忽略所有 .zip、.mp4、.h265 文件
+*.zip
+*.mp4
+*.h265
+
+# 忽略检查点和中间结果
+checkpoints/
+output_*/
+*.pth
+*.tar
+
+# 忽略特定文件夹
+x2/
+x4/
+x8/
+
+# 如果有其他需要忽略的文件或目录，继续添加
+cfyt/
+cfyt_result/
+basicsr/
